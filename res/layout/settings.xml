@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+   		android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+   		android:background="#EFEFEF">
+	<LinearLayout 
+	android:id="@+id/LinearLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="100px"
+	android:orientation="horizontal" 
+	android:padding="15px"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center"
+	android:background="#3366CC"
+	>
+		<Button
+            android:id="@+id/updateViaWeb"
+           	android:layout_width="fill_parent"
+           	android:layout_height="60px"
+           	android:text="Update Quotes Via Web"
+           	android:textSize="20px"
+           	android:textStyle="bold"
+           	android:padding="10px" />
+    </LinearLayout>
+   <LinearLayout 
+	android:id="@+id/LinearLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical" 
+	android:padding="15px"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center"
+	android:background="#EFEFEF"
+	>
+        <com.digichubs.quotenessmonster.LoginButton
+	        android:id="@+id/login"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"  />
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:orientation="vertical"
+	   		android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content"
+	   		android:gravity="center"
+	   		android:layout_marginTop="20px">
+	   		<TextView android:text="Quote Widgets are updated  "
+				   		android:layout_width="wrap_content"
+				   		android:layout_height="wrap_content"
+				   		android:gravity="center"
+				   		android:textColor="#000000" />
+				  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	        						android:orientation="horizontal"
+	   								android:layout_width="fill_parent"
+	   								android:layout_height="wrap_content"
+	   								android:gravity="center" >
+				   		<Button android:id="@+id/widgetRefresh"
+				   					android:layout_width="50px"
+				   					android:layout_height="wrap_content"
+				   					android:text="5"
+				   					android:gravity="center" />
+				   		<TextView android:text="/day"
+							   		android:layout_width="wrap_content"
+							   		android:layout_height="wrap_content"
+							   		android:textColor="#000000"
+							   		android:gravity="center" />
+				  </LinearLayout>
+   		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
+ 

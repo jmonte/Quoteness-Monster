@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" 
+      android:orientation="vertical">
+
+
+      <EditText
+            android:id="@+id/txt_firstname"
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:singleLine="true"
+            android:textSize="18sp"
+            />
+	<EditText
+            android:id="@+id/txt_lastname"
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:singleLine="true"
+            android:textSize="18sp"
+            />
+	<EditText
+            android:id="@+id/txt_email"
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:singleLine="true"
+            android:textSize="18sp"
+            />
+      <EditText
+            android:id="@+id/txt_username"
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:singleLine="true"
+            android:textSize="18sp"
+           />
+      <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="250px"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:password="true" />
+      <Button
+            android:id="@+id/btn_sign_in"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            />
+</LinearLayout>

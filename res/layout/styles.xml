@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+      <style name="Theme.CustomDialog" parent="android:style/Theme.Dialog">
+            <item name="android:windowBackground">@drawable/box</item>
+      </style>
+</resources>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/sortMenu" 
+		android:title="Sort"
+		android:icon="@drawable/sort"/>
+	<item android:id="@+id/settingsMenu" 
+		android:title="Settings"
+		android:icon="@drawable/equalizer"/>
+</menu>
+

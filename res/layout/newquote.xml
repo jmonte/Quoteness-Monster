@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+android:background="#EFEFEF">
+<LinearLayout 
+	android:id="@+id/LinearLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:scrollbars="horizontal"
+	android:background="#EFEFEF"
+	android:isScrollContainer="true"
+	android:padding="10px">
+	<EditText
+		android:id="@+id/quote"
+		android:hint ="Quote Here"
+		android:layout_width="fill_parent"
+		android:layout_height="180px"
+		android:inputType="textMultiLine"
+		android:layout_gravity="center"
+		/>
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		>
+		<Spinner android:id="@+id/categories"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:drawSelectorOnTop="true"
+	        android:layout_weight="1" />
+		<Button
+			android:id="@+id/newCategory"
+			android:layout_width="50px"
+			android:layout_height="wrap_content"
+			android:text="New"
+			/>
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		>
+		<Spinner android:id="@+id/authors"
+	       android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:drawSelectorOnTop="true"
+	        android:layout_weight="1" 
+	        />
+		<Button
+			android:id="@+id/newAuthor"
+			android:layout_width="50px"
+			android:layout_height="wrap_content"
+			android:text="New"
+			/>
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:paddingTop="20px"
+		>
+		<Button
+			android:id="@+id/submit"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Submit it!"
+			/>
+	</LinearLayout>
+</LinearLayout>
+</ScrollView>
